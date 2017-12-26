@@ -5,6 +5,7 @@ echo I am a Batch Script, made by HelBruCoFi, very useful, I can change the DNS 
 echo.
 echo I can only work with Ethernet and Wi-Fi cards. These must be named this way, if not you can rename them in Control Panel
 echo or just edit my source code with your real network card names.
+echo.
 echo DON'T forget to RUN ME AS ADMINISTRATOR, in that case I have no rights to live. If you did forget about that, please
 echo kill me and give me life again with truly rights... I accept the pain, I just wanna be useful to you.
 echo.
