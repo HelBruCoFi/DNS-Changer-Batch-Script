@@ -60,8 +60,7 @@ echo.
 echo.
 echo.
 echo Very nice, it's done.
-echo Here is a par of boobs:
-echo ( . Y . )
+echo I'm glad I could help you. :)
 
 echo.
 pause
