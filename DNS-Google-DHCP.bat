@@ -19,6 +19,7 @@ set INPUT=
 set /P INPUT=Choose option: %=%
 If %INPUT%==1 goto DHCP
 If %INPUT%==2 goto google
+If %INPUT%==3 goto cloudflare
 echo.
 echo You are now a offical noob that can't write 1 or 2        :^)
 echo.
@@ -54,6 +55,26 @@ netsh interface ipv6 add dnsservers "Wi-Fi" 2001:4860:4860::8888 >nul
 netsh interface ipv6 add dnsservers "Wi-Fi" 2001:4860:4860::8844 >nul
 
 echo Your DNS is now Google DNS.
+echo.
+
+goto end
+
+
+:cloudflare
+
+netsh interface ipv4 add dnsservers "Ethernet" 1.1.1.1
+netsh interface ipv4 add dnsservers "Ethernet" 1.0.0.1
+
+netsh interface ipv6 add dnsservers "Ethernet" 2606:4700:4700::1111 >nul
+netsh interface ipv6 add dnsservers "Ethernet" 2606:4700:4700::1001 >nul
+
+netsh interface ipv4 add dnsservers "Wi-Fi" 1.1.1.1
+netsh interface ipv4 add dnsservers "Wi-Fi" 1.0.0.1
+
+netsh interface ipv6 add dnsservers "Wi-Fi" 2606:4700:4700::1111 >nul
+netsh interface ipv6 add dnsservers "Wi-Fi" 2606:4700:4700::1001 >nul
+
+echo Your DNS is now Cloudflare DNS.
 echo.
 
 :end
