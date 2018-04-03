@@ -14,6 +14,7 @@ echo.
 echo Would you like to change your DNS to Google's or DHCP?
 echo For DHCP option type and enter "1"
 echo For Google DNS type and enter "2"
+echo For Cloudflare DNS type and enter "3"
 
 set INPUT=
 set /P INPUT=Choose option: %=%
