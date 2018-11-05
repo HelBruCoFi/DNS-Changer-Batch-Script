@@ -8,15 +8,18 @@ This idea started with my habit of changing IPv4's DNS of my Wi-Fi card to Googl
 
 Later I saw myself manually changing DNS of network cards to often. Then decided to create a batch script to automatically change Ethernet and Wi-Fi cards for Google DNS and also capable of going back to DHCP.
 
-HOW TO:
+## HOW TO:
 
 In order to use the script you need to have your Ethernet card named "Ethernet" and your Wi-Fi card named "Wi-Fi". Like this:
 
 ![alt text](https://image.prntscr.com/image/Cgq9l9v3SPGSzIc8aWdEtg.png)
 I hope you don't mind that it's in portuguese.
 
-Then, copy the batch file to your Desktop and everytime you want to run it you need to RUN AS ADMINISTRATOR:
+Then, copy the batch file to your Desktop and everytime you want to run it you need to **RUN AS ADMINISTRATOR**:
 
 ![alt text](https://image.prntscr.com/image/-0lLgq6DTLyRsOSconfJIg.png)
 
 And it's done! ;)
+
+### Another option to run as administrator:
+Create a shortcut of the file, then change the shortcut proprieties to run as administrator. Like this, you only need to double click the shortcut to execute this properly.
