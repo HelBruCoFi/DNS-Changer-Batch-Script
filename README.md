@@ -12,8 +12,7 @@ Later I saw myself manually changing DNS of network cards to often. Then decided
 
 In order to use the script you need to have your Ethernet card named "Ethernet" and your Wi-Fi card named "Wi-Fi". Like this:
 
-![alt text](https://image.prntscr.com/image/Cgq9l9v3SPGSzIc8aWdEtg.png)
-I hope you don't mind that it's in portuguese.
+![alt text](https://i.imgur.com/coDKTJQ.png)
 
 Then, copy the batch file to your Desktop and everytime you want to run it you need to **RUN AS ADMINISTRATOR**:
 
