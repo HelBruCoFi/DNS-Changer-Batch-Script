@@ -11,7 +11,7 @@ echo kill me and give me life again with truly rights... I accept the pain, I ju
 echo.
 
 :Ask
-echo Would you like to change your DNS to Google's or DHCP?
+echo Please, choose the DNS you want:
 echo For DHCP option     type and enter "1"
 echo For Google DNS      type and enter "2"
 echo For Cloudflare DNS  type and enter "3"
